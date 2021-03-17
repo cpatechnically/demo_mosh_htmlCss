@@ -1,0 +1,14 @@
+<section class="form-section">
+    <h3>Form validation</h3>
+    <ul>
+        <li>required - cant be submitted if value is blank</li>
+        <li>minlength="3" = error if less than 3 characters</li>
+        <li>maxlength="10" = "" as above, ALWAYS USE THIS</li>
+        <li>use min/max to validate number vals</li>
+    </ul>
+    <form>
+        <input type="numbers" required min="0" max="5">
+        <button type="submit">Submit</button>
+    </form>
+    <p>can use hidden field but never store sensetive info in them.</p>
+</section>

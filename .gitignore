@@ -1,0 +1,14 @@
+node_modules/
+moshdl
+/moshdl/
+moshdl/
+moshdl/code/
+dist/
+//
+\moshdl
+\moshdl\
+moshdl
+.cache/
+tests/
+sub.py
+complex_p.py
